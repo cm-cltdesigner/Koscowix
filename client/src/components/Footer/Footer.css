@@ -114,3 +114,8 @@ footer {
 #githubLinks {
     color: gray !important;
 }
+
+.productGIF {
+height: 200px;
+width: 130px;
+}

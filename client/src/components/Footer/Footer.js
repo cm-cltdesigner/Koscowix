@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./Footer.css";
 import { Link } from 'react-router-dom';
+import GIF from "./productGIF.gif";
 
 class Footer extends Component {
 
@@ -26,19 +27,21 @@ class Footer extends Component {
           <div className="footer" id="footer">
               <div className="container" id="footerContainer">
                 <div className="row" id="footerRow">
+           
                   {/* <div id="footerSec" className="col-4">Developers
                       <p id="footerItems">Yawo Tsevi</p>
                       <p id="footerItems">Donnel Ferguson</p>
                       <p id="footerItems">Courtney Manery</p>
                       <p id="footerItems">Kong Yang</p>
                   </div> */}
-                  <div id="footerSec" className="col-6">See Our Works
+                  <div id="footerSec" className="col-4">See Our Works
                       <p id="footerItems"><Link id="githubLinks" to="https://www.github.com/Tyawo/"><i id="devIcon" class="fab fa-github"></i>Yawo Tsevi</Link></p>
                       <p id="footerItems"><Link id="githubLinks" to="https://www.github.com/Donferg0/"><i id="devIcon" class="fab fa-github"></i>Donnel Ferguson</Link></p>
                       <p id="footerItems"><Link id="githubLinks" to="https://www.github.com/cm-cltdesigner"><i id="devIcon" class="fab fa-github"></i>Courtney Manery</Link></p>
                       <p id="footerItems"><Link id="githubLinks" to="https://www.github.com/kyang0626/"><i id="devIcon" class="fab fa-github"></i>Kong Yang</Link></p>
                   </div>
-                  <div id="footerSec" className="col-6">Connect With Us
+                  <div id="footerSec" className="col-4"><img src={GIF} className="productGIF" alt="productGIF"/></div>
+                  <div id="footerSec" className="col-4">Connect With Us
                       <div className="container">
                         <div className="row">
                           <div className="col-2"></div>
